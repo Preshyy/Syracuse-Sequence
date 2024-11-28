@@ -18,9 +18,20 @@ and tracking functionality to keep track of the number of moves it takes to reac
   - Calculates the Collatz sequence for a given number n.
   - Appends each step to the sequence vector.
   - Increments the moves counter.
- 
 - visualize_sequence(const vector<double>& sequence)
   - Displays the entire sequence to the console.
- 
 - ends_in_421(const vector<double>& sequence)
   - Returns true if the sequence ends in the 4-2-1 loop.
+
+## Key Concepts
+- Data Types:
+  - long double: To handle large and precise starting numbers.
+  - vector<double>: To store the generated sequence dynamically.
+  - string: Used for user input, later converted to numeric values, to handle long strings of numbers.
+- String Conversion:
+  - stoi: Converts a string to an integer.
+  - stod: Converts a string to a double, supporting decimal and negative values.
+- Error Handling:
+  - try-catch: Ensures invalid input does not crash the program.
+- Loops:
+  - do-while: Allows reusability for generating multiple sequences.
