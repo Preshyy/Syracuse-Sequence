@@ -35,3 +35,23 @@ and tracking functionality to keep track of the number of moves it takes to reac
   - try-catch: Ensures invalid input does not crash the program.
 - Loops:
   - do-while: Allows reusability for generating multiple sequences.
+
+## How to Use
+- Clone the repository: git clone https://github.com/yourusername/SyracuseSequenceSimulator.git
+- Compile the program using a C++ compiler.
+- Run the executable file.
+- Follow the on-screen instructions to generate a sequence.
+
+## Future Enhancements
+- Include visual graphs for sequence trends.
+- Add functionality to display the stopping time for each sequence.
+
+## Technologies Used
+- C++ Standard Library
+  - <iostream> for input/output operations.
+  - <string> for string manipulation.
+  - <vector> for dynamic arrays.
+  - <cmath> for mathematical operations.
+  - <algorithm> for sequence operations.
+- Modern C++ Practices: Use of try-catch for exception handling and switch for menu-driven logic.
+
